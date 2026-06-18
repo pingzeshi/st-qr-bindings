@@ -1,0 +1,15 @@
+{
+    "display_name": "Quick Reply Bindings",
+    "loading_order": 20,
+    "requires": [],
+    "optional": [],
+    "dependencies": [
+        "quick-reply",
+        "third-party/st-api-wrapper"
+    ],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "local",
+    "version": "0.1.0",
+    "homePage": "https://github.com/Lianues/st-api-wrapper"
+}

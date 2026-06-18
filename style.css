@@ -1,0 +1,79 @@
+.qrb-toolbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) repeat(3, auto);
+    align-items: center;
+    gap: 6px;
+    margin: 8px 0 10px;
+}
+
+.qrb-toolbar .menu_button {
+    min-height: 32px;
+    min-width: 42px;
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+
+.qrb-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: min(560px, 80vw);
+}
+
+.qrb-modal__search {
+    width: 100%;
+}
+
+.qrb-modal__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: min(420px, 55vh);
+    overflow: auto;
+}
+
+.qrb-modal__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+.qrb-modal__itemName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.qrb-modal__empty {
+    padding: 10px;
+    opacity: 0.75;
+}
+
+.qrb-binding-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+    margin: 0;
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+.qrb-binding-summary div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+    .qrb-toolbar {
+        grid-template-columns: minmax(0, 1fr) repeat(3, 42px);
+    }
+
+    .qrb-toolbar .menu_button span {
+        display: none;
+    }
+}
