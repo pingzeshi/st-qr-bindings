@@ -9,7 +9,8 @@
     ],
     "js": "index.js",
     "css": "style.css",
-    "author": "local",
+    "author": "pingzeshi",
     "version": "0.1.0",
-    "homePage": "https://github.com/Lianues/st-api-wrapper"
+    "homePage": "https://github.com/pingzeshi/st-qr-bindings",
+    "auto_update": true
 }
