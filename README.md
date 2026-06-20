@@ -45,11 +45,10 @@ public/scripts/extensions/third-party/st-qr-bindings
 
 ## 安装失败排查
 
-- 先安装并启用 `st-api-wrapper`，再启用本扩展。
-- 确认 st-api-wrapper 的目录名是 `st-api-wrapper`，不是 `st-api-wrapper-main` 或其他名字。
+- 先安装并启用 st-api-wrapper，再启用本扩展。
+- 确认 st-api-wrapper 的目录名是 st-api-wrapper，不是 st-api-wrapper-main 或其他名字。
 - 如果 SillyTavern 提示目录已存在，先在“管理扩展”里删除旧的 `st-qr-bindings`，或手动删除对应扩展目录后再安装。
-- 如果使用 `.git` 地址失败，改用不带 `.git` 的仓库主页地址：`https://github.com/pingzeshi/st-qr-bindings`。
-- SillyTavern 安装第三方扩展需要服务端能运行 `git` 并访问 GitHub。
+- 如果使用 .git 地址失败，改用不带 .git 的仓库主页地址：`https://github.com/pingzeshi/st-qr-bindings`。
 
 ## 使用方法
 
